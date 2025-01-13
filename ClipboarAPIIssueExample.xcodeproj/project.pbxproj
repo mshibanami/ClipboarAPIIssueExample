@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007216542D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 007216532D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0072165E2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0072165D2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		007216552D34B1EB00C05935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007216192D34B1E900C05935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 007216522D34B1EB00C05935;
+			remoteInfo = "ClipboarAPIIssueExample Extension (iOS)";
+		};
+		0072165F2D34B1EB00C05935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007216192D34B1E900C05935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0072165C2D34B1EB00C05935;
+			remoteInfo = "ClipboarAPIIssueExample Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		007216872D34B1EB00C05935 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				007216542D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007216912D34B1EB00C05935 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0072165E2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		007216352D34B1EB00C05935 /* ClipboarAPIIssueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboarAPIIssueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		007216472D34B1EB00C05935 /* ClipboarAPIIssueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboarAPIIssueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		007216532D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ClipboarAPIIssueExample Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0072165D2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ClipboarAPIIssueExample Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		007216822D34B1EB00C05935 /* Exceptions for "Shared (App)" folder in "ClipboarAPIIssueExample (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = 007216342D34B1EB00C05935 /* ClipboarAPIIssueExample (iOS) */;
+		};
+		007216862D34B1EB00C05935 /* Exceptions for "iOS (Extension)" folder in "ClipboarAPIIssueExample Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 007216522D34B1EB00C05935 /* ClipboarAPIIssueExample Extension (iOS) */;
+		};
+		0072168B2D34B1EB00C05935 /* Exceptions for "iOS (App)" folder in "ClipboarAPIIssueExample (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 007216342D34B1EB00C05935 /* ClipboarAPIIssueExample (iOS) */;
+		};
+		0072168C2D34B1EB00C05935 /* Exceptions for "Shared (App)" folder in "ClipboarAPIIssueExample (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = 007216462D34B1EB00C05935 /* ClipboarAPIIssueExample (macOS) */;
+		};
+		007216902D34B1EB00C05935 /* Exceptions for "macOS (Extension)" folder in "ClipboarAPIIssueExample Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0072165C2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension (macOS) */;
+		};
+		007216952D34B1EB00C05935 /* Exceptions for "Shared (Extension)" folder in "ClipboarAPIIssueExample Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				Resources/popup.css,
+				Resources/popup.html,
+				Resources/popup.js,
+				SafariWebExtensionHandler.swift,
+			);
+			target = 007216522D34B1EB00C05935 /* ClipboarAPIIssueExample Extension (iOS) */;
+		};
+		007216962D34B1EB00C05935 /* Exceptions for "Shared (Extension)" folder in "ClipboarAPIIssueExample Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				Resources/popup.css,
+				Resources/popup.html,
+				Resources/popup.js,
+				SafariWebExtensionHandler.swift,
+			);
+			target = 0072165C2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension (macOS) */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0072161D2D34B1E900C05935 /* Shared (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				007216822D34B1EB00C05935 /* Exceptions for "Shared (App)" folder in "ClipboarAPIIssueExample (iOS)" target */,
+				0072168C2D34B1EB00C05935 /* Exceptions for "Shared (App)" folder in "ClipboarAPIIssueExample (macOS)" target */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		007216262D34B1EB00C05935 /* Shared (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				007216952D34B1EB00C05935 /* Exceptions for "Shared (Extension)" folder in "ClipboarAPIIssueExample Extension (iOS)" target */,
+				007216962D34B1EB00C05935 /* Exceptions for "Shared (Extension)" folder in "ClipboarAPIIssueExample Extension (macOS)" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		007216372D34B1EB00C05935 /* iOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0072168B2D34B1EB00C05935 /* Exceptions for "iOS (App)" folder in "ClipboarAPIIssueExample (iOS)" target */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		007216482D34B1EB00C05935 /* macOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		007216572D34B1EB00C05935 /* iOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				007216862D34B1EB00C05935 /* Exceptions for "iOS (Extension)" folder in "ClipboarAPIIssueExample Extension (iOS)" target */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		007216612D34B1EB00C05935 /* macOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				007216902D34B1EB00C05935 /* Exceptions for "macOS (Extension)" folder in "ClipboarAPIIssueExample Extension (macOS)" target */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		007216322D34B1EB00C05935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007216442D34B1EB00C05935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007216502D34B1EB00C05935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0072165A2D34B1EB00C05935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007216182D34B1E900C05935 = {
+			isa = PBXGroup;
+			children = (
+				0072161D2D34B1E900C05935 /* Shared (App) */,
+				007216262D34B1EB00C05935 /* Shared (Extension) */,
+				007216372D34B1EB00C05935 /* iOS (App) */,
+				007216482D34B1EB00C05935 /* macOS (App) */,
+				007216572D34B1EB00C05935 /* iOS (Extension) */,
+				007216612D34B1EB00C05935 /* macOS (Extension) */,
+				007216362D34B1EB00C05935 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		007216362D34B1EB00C05935 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007216352D34B1EB00C05935 /* ClipboarAPIIssueExample.app */,
+				007216472D34B1EB00C05935 /* ClipboarAPIIssueExample.app */,
+				007216532D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex */,
+				0072165D2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		007216342D34B1EB00C05935 /* ClipboarAPIIssueExample (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007216882D34B1EB00C05935 /* Build configuration list for PBXNativeTarget "ClipboarAPIIssueExample (iOS)" */;
+			buildPhases = (
+				007216312D34B1EB00C05935 /* Sources */,
+				007216322D34B1EB00C05935 /* Frameworks */,
+				007216332D34B1EB00C05935 /* Resources */,
+				007216872D34B1EB00C05935 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007216562D34B1EB00C05935 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				007216372D34B1EB00C05935 /* iOS (App) */,
+			);
+			name = "ClipboarAPIIssueExample (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "ClipboarAPIIssueExample (iOS)";
+			productReference = 007216352D34B1EB00C05935 /* ClipboarAPIIssueExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		007216462D34B1EB00C05935 /* ClipboarAPIIssueExample (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007216922D34B1EB00C05935 /* Build configuration list for PBXNativeTarget "ClipboarAPIIssueExample (macOS)" */;
+			buildPhases = (
+				007216432D34B1EB00C05935 /* Sources */,
+				007216442D34B1EB00C05935 /* Frameworks */,
+				007216452D34B1EB00C05935 /* Resources */,
+				007216912D34B1EB00C05935 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007216602D34B1EB00C05935 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				007216482D34B1EB00C05935 /* macOS (App) */,
+			);
+			name = "ClipboarAPIIssueExample (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "ClipboarAPIIssueExample (macOS)";
+			productReference = 007216472D34B1EB00C05935 /* ClipboarAPIIssueExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		007216522D34B1EB00C05935 /* ClipboarAPIIssueExample Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007216832D34B1EB00C05935 /* Build configuration list for PBXNativeTarget "ClipboarAPIIssueExample Extension (iOS)" */;
+			buildPhases = (
+				0072164F2D34B1EB00C05935 /* Sources */,
+				007216502D34B1EB00C05935 /* Frameworks */,
+				007216512D34B1EB00C05935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				007216572D34B1EB00C05935 /* iOS (Extension) */,
+			);
+			name = "ClipboarAPIIssueExample Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "ClipboarAPIIssueExample Extension (iOS)";
+			productReference = 007216532D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0072165C2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0072168D2D34B1EB00C05935 /* Build configuration list for PBXNativeTarget "ClipboarAPIIssueExample Extension (macOS)" */;
+			buildPhases = (
+				007216592D34B1EB00C05935 /* Sources */,
+				0072165A2D34B1EB00C05935 /* Frameworks */,
+				0072165B2D34B1EB00C05935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				007216612D34B1EB00C05935 /* macOS (Extension) */,
+			);
+			name = "ClipboarAPIIssueExample Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "ClipboarAPIIssueExample Extension (macOS)";
+			productReference = 0072165D2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		007216192D34B1E900C05935 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					007216342D34B1EB00C05935 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					007216462D34B1EB00C05935 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					007216522D34B1EB00C05935 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0072165C2D34B1EB00C05935 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 0072161C2D34B1E900C05935 /* Build configuration list for PBXProject "ClipboarAPIIssueExample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 007216182D34B1E900C05935;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 007216362D34B1EB00C05935 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				007216342D34B1EB00C05935 /* ClipboarAPIIssueExample (iOS) */,
+				007216462D34B1EB00C05935 /* ClipboarAPIIssueExample (macOS) */,
+				007216522D34B1EB00C05935 /* ClipboarAPIIssueExample Extension (iOS) */,
+				0072165C2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		007216332D34B1EB00C05935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007216452D34B1EB00C05935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007216512D34B1EB00C05935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0072165B2D34B1EB00C05935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007216312D34B1EB00C05935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007216432D34B1EB00C05935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0072164F2D34B1EB00C05935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007216592D34B1EB00C05935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		007216562D34B1EB00C05935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 007216522D34B1EB00C05935 /* ClipboarAPIIssueExample Extension (iOS) */;
+			targetProxy = 007216552D34B1EB00C05935 /* PBXContainerItemProxy */;
+		};
+		007216602D34B1EB00C05935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0072165C2D34B1EB00C05935 /* ClipboarAPIIssueExample Extension (macOS) */;
+			targetProxy = 0072165F2D34B1EB00C05935 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007216842D34B1EB00C05935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVWN4UJS9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ClipboarAPIIssueExample Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.ClipboarAPIIssueExample.Extension;
+				PRODUCT_NAME = "ClipboarAPIIssueExample Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		007216852D34B1EB00C05935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVWN4UJS9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ClipboarAPIIssueExample Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.ClipboarAPIIssueExample.Extension;
+				PRODUCT_NAME = "ClipboarAPIIssueExample Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		007216892D34B1EB00C05935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVWN4UJS9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ClipboarAPIIssueExample;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.ClipboarAPIIssueExample;
+				PRODUCT_NAME = ClipboarAPIIssueExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0072168A2D34B1EB00C05935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVWN4UJS9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ClipboarAPIIssueExample;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.ClipboarAPIIssueExample;
+				PRODUCT_NAME = ClipboarAPIIssueExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0072168E2D34B1EB00C05935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ClipboarAPIIssueExample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVWN4UJS9M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ClipboarAPIIssueExample Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.ClipboarAPIIssueExample.Extension;
+				PRODUCT_NAME = "ClipboarAPIIssueExample Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0072168F2D34B1EB00C05935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ClipboarAPIIssueExample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVWN4UJS9M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ClipboarAPIIssueExample Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.ClipboarAPIIssueExample.Extension;
+				PRODUCT_NAME = "ClipboarAPIIssueExample Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		007216932D34B1EB00C05935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ClipboarAPIIssueExample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVWN4UJS9M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClipboarAPIIssueExample;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.ClipboarAPIIssueExample;
+				PRODUCT_NAME = ClipboarAPIIssueExample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		007216942D34B1EB00C05935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ClipboarAPIIssueExample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVWN4UJS9M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClipboarAPIIssueExample;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.ClipboarAPIIssueExample;
+				PRODUCT_NAME = ClipboarAPIIssueExample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		007216972D34B1EB00C05935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		007216982D34B1EB00C05935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0072161C2D34B1E900C05935 /* Build configuration list for PBXProject "ClipboarAPIIssueExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007216972D34B1EB00C05935 /* Debug */,
+				007216982D34B1EB00C05935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007216832D34B1EB00C05935 /* Build configuration list for PBXNativeTarget "ClipboarAPIIssueExample Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007216842D34B1EB00C05935 /* Debug */,
+				007216852D34B1EB00C05935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007216882D34B1EB00C05935 /* Build configuration list for PBXNativeTarget "ClipboarAPIIssueExample (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007216892D34B1EB00C05935 /* Debug */,
+				0072168A2D34B1EB00C05935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0072168D2D34B1EB00C05935 /* Build configuration list for PBXNativeTarget "ClipboarAPIIssueExample Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0072168E2D34B1EB00C05935 /* Debug */,
+				0072168F2D34B1EB00C05935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007216922D34B1EB00C05935 /* Build configuration list for PBXNativeTarget "ClipboarAPIIssueExample (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007216932D34B1EB00C05935 /* Debug */,
+				007216942D34B1EB00C05935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 007216192D34B1E900C05935 /* Project object */;
+}
